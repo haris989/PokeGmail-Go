@@ -84,7 +84,7 @@ var steps = [
 					
 					document.querySelectorAll("textarea[name='to']")[0].value=passs[0][passs[1]];
 					document.querySelectorAll("input[name='subject']")[0].value="--Your subject here--";
-					document.querySelectorAll("textarea[name='body']")[0].value="--Your message here--";
+					document.querySelectorAll("textarea[name='body']")[0].value=passs[2];
 					document.querySelectorAll("input[value='Send']")[0].click();
 											  }, passs);								
 										page.render(mailer+".png");
